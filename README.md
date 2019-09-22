@@ -1,4 +1,4 @@
-# Card Kwest Effect
+#Kwest Arcade Effect
 
 A morphing card expansion effect enhanced by a low poly background animation, using SVG clipPath and Trianglify.
 
