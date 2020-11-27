@@ -3333,6 +3333,7 @@
                             T = n,
 				    console.log(e),
 				    console.log(t),
+				    window.open(t.url,"_blank");
                             t.fire(e)
                         }
                         ))
