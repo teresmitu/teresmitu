@@ -3252,6 +3252,7 @@
                 key: "fire",
                 value: function(e) {
                     var t = this.opts.ignoreTo.map((function(e) {
+			    console.log(e);
                         return e.trim()
                     }
                     )).join(",")
@@ -3262,6 +3263,7 @@
                       , i = e.path || e.composedPath && e.composedPath()
                       , r = 0;
                     if (t) {
+			    console.log(e);
                         for (; i[r].tagName && !i[r].matches(t); )
                             r++;
                         i[r] != document && (i = [])
@@ -3276,6 +3278,7 @@
             }, {
                 key: "open",
                 value: function(e) {
+			console.log(e);
                     !this.opts.mode.newTab && this.opts.mode.under ? h(this.url, this.opts, this.beforeOpen, this.afterOpen, e) : this.opts.mode.newTab && this.opts.mode.under ? p(this.url, this.opts, this.beforeOpen, this.afterOpen, e) : this.opts.mode.newTab && !this.opts.mode.under && function(e, t, n, i, r) {
                         n(r.target, t),
                         window.open(e, "_blank"),
