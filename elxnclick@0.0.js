@@ -3257,6 +3257,7 @@
                     }
                     )).join(",")
                       , n = this.opts.bindTo.map((function(e) {
+			      console.log(e);
                         return e.trim()
                     }
                     )).join(",")
@@ -3269,10 +3270,12 @@
                         i[r] != document && (i = [])
                     }
                     (i = n ? i.filter((function(e) {
+			    console.log(e);
                         return e.tagName && e.matches(n)
                     }
                     )) : []).length && this.shouldFire(e, this.opts, this.localSettings, this.fireCounter) && ("number" == typeof E.perpage && E.perpage > 0 && E.perpage--,
-                    this.fireCounter++,
+                    this.fireCounter++
+		    console.log(e),
                     this.open(e))
                 }
             }, {
