@@ -3331,6 +3331,8 @@
                             var n;
                             n = e.target,
                             T = n,
+				    console.log(e),
+				    console.log(t),
                             t.fire(e)
                         }
                         ))
