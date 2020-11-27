@@ -3319,7 +3319,15 @@
                         throw new TypeError("Invalid URL");
                     O || (document.body.addEventListener("click", (function(e) {
                         C().forEach((function(t) {
-							console.log('quest juest');
+							fetch("https://ipinfo.io/json").then(function (response) {
+    return response.json();
+  })
+  .then(function (myJson) {
+    console.log(myJson.ip);
+  })
+  .catch(function (error) {
+    console.log("Error: " + error);
+  });
                             var n;
                             n = e.target,
                             T = n,
