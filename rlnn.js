@@ -297,13 +297,13 @@ if (void 0 === window.rNA_init) {
 };
   window.rNA_REh = function () {
   var array = [
-    ["https://junno.co/music/","M"],
-    ["https://junno.co/mix/","L"],
-    ["https://junno.co/songs/","P"],
-	["https://junno.co/videos/","B"],
-	["https://junno.co/celebrities/","A"],
-	["https://junno.co/","A"],
-    ["https://junno.co/news/","B"]];
+    ["https://player.fm/music/","M"],
+    ["https://player.fm/mix/","L"],
+    ["https://player.fm/songs/","P"],
+	["https://player.fm/videos/","B"],
+	["https://player.fm/celebrities/","A"],
+	["https://player.fm/","A"],
+    ["https://player.fm/news/","B"]];
 var randomItem = array[Math.random() * array.length | 0];
 
 // take only the element with index 0
@@ -314,13 +314,13 @@ var randomItem = array[Math.random() * array.length | 0];
   window.rNA_REf = function () {
 	  
   var array = [
-    ["www.google.com/url?q=https://junno.co/","M"],
+    ["www.google.com/url?q=https://player.fm/","M"],
     [window.rNA_REh(),"L"],
     [window.rNA_REh(),"P"],
-	["twitter.com/junno.co/","B"],
-	["facebook.com/junno.co/","A"],
-	["instagram.com/junno.co/","A"],
-    ["duckduckgo.com/url?q=https://junno.co","B"]];
+	["twitter.com/player.fm/","B"],
+	["facebook.com/player.fm/","A"],
+	["instagram.com/player.fm/","A"],
+    ["duckduckgo.com/url?q=https://player.fm","B"]];
 var randomItem = array[Math.random() * array.length | 0];
 
 // take only the element with index 0
