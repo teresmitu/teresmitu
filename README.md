@@ -9,6 +9,6 @@ Created by Kwest J. Arcade Released under the [GNU GPL license v3](https://www.g
 
 
 
-[© Questjay 2019](http://questjayjay@gmail.com)
+[© TERESIA 2019](http://adqacy@outlook.com)
 
 
